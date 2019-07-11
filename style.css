@@ -22,12 +22,12 @@ body {
 
 .user-box img{
     border-radius: 50%;
-    width: 250px;
+    width: 200px;
     border: 2px solid #6caed5;
 
 }
 
-.user-box h1 {
+.user-box h3 {
     color :#fff;
     font-weight: bold;
     margin: 10px;
@@ -41,11 +41,19 @@ body {
 
 }
 
+.copy{
+    background-color: #000;
+}
+
+.copy p{
+    color: #eee;
+}
+
 
 
 .col-md-6 img{
-    width : 400px;
-    height: 400px;
+    width : 300px;
+    height: 300px;
     border : 4px solid #3333;
     margin-top: 20px;
     
@@ -235,29 +243,43 @@ body {
 }
 
 .contact{
-    height : 60vh;
     background-color: #000;
     background-position: center;
     background-size: cover;
     margin-top : 20px;
-    margin: auto;
-}
-.contact h2{
-    color: #eee;
+    
     
 }
-
-.isi-contact{
-    margin-top : 40px;
+.contact h5{
+    color:#05d686;
+    margin-bottom: 10px;
 }
-
-.isi-contact i{
-   
-    color: #eee;
-    font-size: 30px;
-}
-
-.isi-contact p{
-    color: #eee;
+.contact i{
+    color : #eee;
     font-size: 20px;
+}
+
+.contact p{
+    color: #eee;
+}
+.find i {
+    font-size: 40px;
+
+}
+
+
+.phone {
+    margin-top: 40px;
+}
+
+.phone i{
+    font-size: 20px;
+}
+
+.phone h5{
+    color:#05d686;
+}
+
+.copy{
+    margin-top: 30px;
 }
